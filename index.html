@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take your Quiz in minutes">
+    <meta name="keywords" content="quiz">
+    <meta name="robots" content="no-follow">
+    <meta http-equiv="author" content="Gurnaj Singh">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Quiz Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Open+Sans:wght@400;700&display=optional" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+    <section class="main animate__animated animate__fadeInLeft">
+        <h1 class="question">Q1: What is the full form of HTML?</h1>
+
+        <ul class="options">
+            <li class="option">
+                <input type="radio" id="first" name="quiz" value="a">
+                <label for="first">Hello To My Land</label> 
+            </li>
+
+            <li class="option">
+                <input type="radio" id="second" name="quiz" value="b">
+                <label for="second">Hey To Markup Language</label>
+            </li>
+
+            <li class="option">
+                <input type="radio" id="third" name="quiz" value="c">
+                <label for="third">Hyper Text Markup Language</label>
+            </li>
+
+            <li class="option">
+                <input type="radio" id="fourth" name="quiz" value="d">
+                <label for="fourth">Hyper Text Makeup Language</label>
+            </li>
+        </ul>
+
+        <div class="btn-container">
+            <button type="submit" id="btn">Submit</button>
+        </div>
+
+        <div class="score" hidden>
+            <h2>You scored 0/4✌️</h2>
+            <button class="btn-again">PLAY AGAIN</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
